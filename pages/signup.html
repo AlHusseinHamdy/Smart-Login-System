@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <!-- ^ ICON -->
+    <link rel="icon" href="../icon/login_icon_176905.png">
+    <!-- ^ CSS  BOOTSTRAP -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- ^ CSS LINK -->
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container  text-center">
+        <div class="row col-9 m-auto w-75 p-5 ">
+            <div class="content py-5 px-5 d-flex flex-column">
+                <h1>Sign Up</h1>
+                <input type="text" id="name" placeholder="Enter your Name" class="form-control my-2" onfocus="clearLabelMessage()">
+                <input type="text" id="eMail" placeholder="Enter your Email" class="form-control my-2" onfocus="clearLabelMessage()">
+                <input type="password" id="password" placeholder="Enter your password" class="form-control my-2" onfocus="clearLabelMessage()">
+                <label id="lblMessage" class="text-danger"></label>
+                <button id="signup" class="btn btn-outline-primary my-3" >Sign Up</button>
+                <p>Don’t have an account?
+                    <a href="../index.html">Signin</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ^ BOOTSTRAP JS -->
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
